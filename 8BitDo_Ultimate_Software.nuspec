@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>8BitDo_Ultimate_Software</id>
+    <version>2.5</version>
+    <title>8BitDo Ultimate Software</title>
+    <authors>8BitDo</authors>
+    <owners>nett00n</owners>
+    <projectUrl>http://www.alreader.com/?lang=en</projectUrl>
+    <iconUrl>https://support.8bitdo.com/images/ico/ultimate-software-focus.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>8BitDo Ultimate Software</description>
+    <summary>
+      Ultimate software gives you elite control over every piece of your controller: customize button mapping, adjust stick and trigger sensitivity, vibration control and create macros with any button combination. Create controller profiles and switch between them at any time.
+
+      Controller compatibility:
+      · PS5, PS4, Xbox One S/X, Switch Pro controllers via 8BitDo USB Wireless Adapter
+      * Functions may vary depending on the product
+    </summary>
+    <language>en-US</language>
+    <releaseNotes>https://support.8bitdo.com/ultimate/usb_adapter.html</releaseNotes>
+    <tags>8bitdo gamepad</tags>
+    <packageSourceUrl>https://github.com/nett00n/8BitDo_Ultimate_Software_chocolatey</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools"/>
+  </files>
+</package>
